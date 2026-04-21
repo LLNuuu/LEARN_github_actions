@@ -1,0 +1,8 @@
+on: workflow_dispatch
+
+jobs:
+  show-python-version:
+    name: Show Python Version
+    runs-on: ubuntu-latest
+    steps:
+      - run: python --version
